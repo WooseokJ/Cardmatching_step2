@@ -20,7 +20,6 @@ public class CustomException extends Exception {
         alreadyFoundMessage,
         differentCoordinateMessage;
 
-        private ErrorType() {
-        }
+        private ErrorType() {}
     }
 }

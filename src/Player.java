@@ -21,6 +21,10 @@ public class Player {
         this.score += 10 * this.consecutiveMatches;
     }
 
+    void formatConsecutiveMatches() {
+        this.consecutiveMatches = 0;
+    }
+
     void onePlusAttempts() {
         ++this.attempts;
     }
